@@ -6,67 +6,81 @@
   <meta name="viewport"
        content="width=device-width, initial-scale=1.0">
   <title>Client Website</title>
-  <!-- Your link to the CSS file will go below  -->
-  <link rel="stylesheet" href="./assets/css/style.css"> 
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet"
+       href="./assets/css/styles.css">
 </head>
 
 <body>
   <!-- Navigation Bar -->
-  <nav>
-    <!-- Links to different sections of the website -->
-    <ul>
-      <li><a href="#header">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#contact">Contact Us</a></li>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#header"
+             class="nav-link">Home</a></li>
+      <li><a href="#about"
+             class="nav-link">About</a></li>
+      <li><a href="#gallery"
+             class="nav-link">Gallery</a></li>
+      <li><a href="#contact"
+             class="nav-link">Contact Us</a></li>
     </ul>
   </nav>
 
   <!-- Header Section -->
-  <header id="header">
-    <h1>Client's Name Will Go Here</h1>
+  <header id="header"
+       class="header">
+    <h1 class="header-title">Client's Name Will Go Here</h1>
   </header>
 
   <!-- About Section -->
-  <section id="about">
+  <section id="about"
+       class="about-section">
     <h2>About</h2>
     <p>Who the client is and what they do will go here.</p>
   </section>
 
   <!-- Gallery Section -->
-  <section id="gallery">
+  <section id="gallery"
+       class="gallery-section">
     <h2>Gallery</h2>
     <!-- Placeholder for images/videos -->
+    <div class="gallery-content">
+      <div class="gallery-item">Image/Video 1</div>
+      <div class="gallery-item">Image/Video 2</div>
+      <div class="gallery-item">Image/Video 3</div>
+    </div>
   </section>
 
   <!-- Contact Us Section -->
-  <section id="contact">
+  <section id="contact"
+       class="contact-section">
     <h2>Contact Us</h2>
-    <form>
-      <div>
+    <form class="contact-form">
+      <div class="form-group">
         <label for="name">Name</label>
         <input type="text"
              id="name"
              required>
       </div>
-      <div>
+      <div class="form-group">
         <label for="email">Email address</label>
         <input type="email"
              id="email"
              required>
       </div>
-      <div>
+      <div class="form-group">
         <label for="message">Message</label>
         <textarea id="message"
              rows="3"
              required></textarea>
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit"
+           class="submit-btn">Submit</button>
     </form>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <p>&copy; Client Name. All rights reserved.</p>
   </footer>
 

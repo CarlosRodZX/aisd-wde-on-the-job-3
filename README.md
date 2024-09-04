@@ -49,6 +49,7 @@ In this stage, we will build on the HTML structure you created in Checkpoint 1 b
 - [ ] Utilize id, class, and tag selectors to target HTML elements for styling.
 - [ ] Updated colors, fonts, and styles to create visual appeal.
 - [ ] Basic positioning using the box model and flexbox.
+- [ ] Use Git to `add`, `commit`, and `push` your changes to the repository for your project.
 
 ---
 
