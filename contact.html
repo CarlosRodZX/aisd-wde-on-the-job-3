@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+
+
+  <title>Contact Us</title>
+
+
+</head>
+
+
+<body>
+
+
+
+  <!--BG video -->
+
+  <video autoplay muted loop id="bg-video">
+    <source src="./assets/videos/Music studio.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+  <nav class="navbar">
+
+
+    <div class="navbar-logo">
+
+
+        <a href="./index.html" class="logo"><img src="./assets/images/Guitar Logo.png" alt="The Web Band Logo" width="35px">The Web Band</a>
+
+
+    </div>
+
+    <ul class="navbar-links">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="tour.html">Tour Dates</a></li>
+
+
+    </ul>
+
+
+</nav>
+
+
+
+<div class="container">
+
+
+  <h1>For Business Inquiries</h1>
+
+  <br>
+
+  <form action="submit-form.php" method="POST" class="contact-form">
+
+
+      <!-- Name field -->
+
+
+      <label for="name">Name:</label>
+
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+
+
+
+      <!-- Email field -->
+
+      <label for="email">Email:</label>
+
+
+      <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+
+
+      <!-- Message/Details field -->
+
+      <label for="message">More Details:</label>
+
+
+      <textarea id="message" name="message" rows="5" placeholder="Enter more details here"></textarea>
+
+
+      <!-- Submit button -->
+
+      <button type="submit">Submit</button>
+
+
+  </form>
+
+
+</div>
+  
+</body>
+
+
+
+</html>
